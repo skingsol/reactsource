@@ -32,10 +32,11 @@ function InputSample2() {
       <button onClick={onReset}>초기화</button>
       <div>
         <b>
-          입력값: {name} - {nickname}
+          입력값 {name}: {nickname}
         </b>
       </div>
     </>
   );
 }
+
 export default InputSample2;

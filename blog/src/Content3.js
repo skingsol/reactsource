@@ -1,22 +1,18 @@
 import "./Content.css";
 import { useState } from "react";
 
-function Content3() {
-  const [like1, setLike1] = useState(0);
-  const [like2, setLike2] = useState(0);
+function Content() {
+  // 첫번째 좋아요
+  const [count1, setCount1] = useState(0);
+  // 두번째 좋아요
+  const [count2, setCount2] = useState(0);
 
-  // const likeUp1 = () => {
-  //   setLike1((like) => like + 1);
-  // };
-  // const likeUp2 = () => {
-  //   setLike2((like) => like + 1);
-  // };
-
-  const likeUp1 = () => {
-    setLike1(like1 + 1);
+  const onCrease1 = () => {
+    setCount1((count) => count + 1);
   };
-  const likeUp2 = () => {
-    setLike2(like2 + 1);
+
+  const onCrease2 = () => {
+    setCount2((count) => count + 1);
   };
 
   return (
@@ -28,7 +24,7 @@ function Content3() {
         <div className="article">
           <h3>
             React 개발환경 설정
-            <span onClick={likeUp1}>👍</span> {like1}
+            <span onClick={onCrease1}>👍</span> {count1}
           </h3>
           <p>2023-08-02</p>
         </div>
@@ -37,7 +33,7 @@ function Content3() {
         <div className="article">
           <h3>
             React 기본문법
-            <span onClick={likeUp2}>👍</span> {like2}
+            <span onClick={onCrease2}>👍</span> {count2}
           </h3>
           <p>2023-08-02</p>
         </div>
@@ -45,4 +41,5 @@ function Content3() {
     </div>
   );
 }
-export default Content3;
+
+export default Content;

@@ -1,6 +1,6 @@
 export default function Navigator(props) {
-  //   //console.log(props);
-  //   // 배열
+  //console.log(props);
+  //배열
   //   const lis = [];
 
   //   for (let index = 0; index < props.topics.length; index++) {

@@ -7,7 +7,6 @@ function Header() {
     </header>
   );
 }
-
 function Navigator() {
   return (
     <nav>
@@ -43,7 +42,9 @@ function App2() {
       <Article />
       <Article />
       <Article />
+      <Article />
     </>
   );
 }
+
 export default App2;

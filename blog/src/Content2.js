@@ -24,6 +24,7 @@ function Content2() {
       </article>
     );
   }
+
   return (
     <div>
       <div className="top-nav">
@@ -32,8 +33,8 @@ function Content2() {
       <article>{posts}</article>
       <button
         onClick={() => {
-          // flag 값 변경 false 로 변경
-          // flag = flag ? false : true;
+          //flag 값 변경 false로 변경
+          //flag = flag ? false : true;
           setflag(!flag);
           console.log(flag);
         }}
@@ -43,4 +44,5 @@ function Content2() {
     </div>
   );
 }
+
 export default Content2;

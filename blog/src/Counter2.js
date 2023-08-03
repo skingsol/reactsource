@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, memo } from "react";
 
-function Counter() {
+function Counter2() {
   const [counter, setCounter] = useState(0);
   //let counter = 0;
 
@@ -25,4 +25,10 @@ function Counter() {
   );
 }
 
-export default Counter;
+// memo() : 함수 실행결과 기억하기 (재렌더링해도 다시 호출 되지 않음)
+let Child = memo(function () {
+  console.log("부모가 렌더링 될 때 자식도 렌더링 됨");
+  return <div>자식 컴포넌트</div>;
+});
+
+export default Counter2;
