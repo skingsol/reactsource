@@ -1,0 +1,34 @@
+[
+  {
+    "id": 4,
+    "src": "https://github.com/skingsol/skingsol.github.io/blob/main/bbllop.jpg?raw=true",
+    "alt": "워킹화/운동화/스니커즈",
+    "pname": "티바트",
+    "color": "화이트",
+    "price": "99,000원"
+  },
+  {
+    "id": 5,
+    "src": "https://github.com/skingsol/skingsol.github.io/blob/main/fila.jpg?raw=true",
+    "alt": "휠라 운동화",
+    "pname": "스플라인 스크립트 운동화",
+    "color": "화이트",
+    "price": "43,000원"
+  },
+  {
+    "id": 6,
+    "src": "https://github.com/skingsol/skingsol.github.io/blob/main/bomu.jpg?raw=true",
+    "alt": "수제구두",
+    "pname": "남성로퍼",
+    "color": "블랙 + 브라운",
+    "price": "38,800원"
+  },
+  {
+    "id": 7,
+    "src": "https://github.com/skingsol/skingsol.github.io/blob/main/tandy.jpg?raw=true",
+    "alt": "탠디 구두",
+    "pname": "탠디 세무 펌프스 블랙",
+    "color": "블랙",
+    "price": "166,300원"
+  }
+]
